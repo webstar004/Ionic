@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var	express = require('express');
+var path = require('path');
 var	cors = require('cors');
 var	morgan = require('morgan');
 var	config = require('./config/database');
